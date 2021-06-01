@@ -6,7 +6,7 @@ It uses the `graceful-fs` module so you dont get the EMFILE errors by searching 
 This traverses the files and directories within the paths upto a certain depth and returns all the matches on all the lines of the files.
 
 ```javascript
-const file_ops = require('bulk-file-operations')
+const file_ops = require('files-lookup')
 const res = file_ops.searchFiles({
   paths: [
     'testPath/dir',
@@ -22,7 +22,7 @@ console.log(res)
 To delete files with secific pattern of files names until a specific depth
 
 ```javascript
-const file_ops = require('bulk-file-operations')
+const file_ops = require('files-lookup')
 file_ops.deleteFiles({
   paths: [
     'testPath/dir',
@@ -35,7 +35,7 @@ file_ops.deleteFiles({
 To delete the whole path
 
 ```javascript
-const file_ops = require('bulk-file-operations')
+const file_ops = require('files-lookup')
 file_ops.deletePath({
   paths: [
     'testPath/dir',
