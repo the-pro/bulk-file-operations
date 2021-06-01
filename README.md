@@ -1,6 +1,6 @@
 # bulk-file-operations
 This serves as a module to traverse through file systems and search for specific lines in specific files or delete in bulk. The files can be filtered with the help of regex.
-It uses the `graceful-fs` module so you dont get the EMFILE errors by searching for too many files.
+It uses the `graceful-fs` module so you dont get the EMFILE errors by searching for too many files which was the problem with [fileSniffer](https://www.npmjs.com/package/filesniffer)
 
 ### USAGE
 This traverses the files within the paths upto a certain depth and returns all the matches on all the lines of the files.
