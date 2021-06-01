@@ -1,6 +1,6 @@
 {
   "name": "bulk-file-operations",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This npm package can traverse UNIX file systems and do multiple operations on it",
   "main": "index.js",
   "scripts": {
