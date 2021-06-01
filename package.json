@@ -1,6 +1,6 @@
 {
   "name": "files-lookup",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This npm package can traverse UNIX file systems and do multiple operations on it",
   "main": "index.js",
   "scripts": {
