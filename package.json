@@ -16,5 +16,10 @@
   "dependencies": {
     "graceful-fs": "^4.2.6",
     "rimraf": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-pro/bulk-file-operations.git"
   }
+  
 }
