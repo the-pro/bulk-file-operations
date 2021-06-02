@@ -19,7 +19,6 @@ const searchFiles = (options) => {
         if(fs.lstatSync(currPath.path).isDirectory()){
             const files = fs.readdirSync(currPath.path)
             if(currPath.depth < depth){
-                console.log(currPath.path)
                 for (const file of files) {
                     filePaths.push({
                         path:`${currPath.path}/${file}`,

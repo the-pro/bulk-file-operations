@@ -9,7 +9,9 @@
   "keywords": [
     "file-search",
     "file-traversal",
-    "file-sniffer"
+    "file-sniffer",
+    "bulk delete",
+    "file filter"
   ],
   "author": "Ayas Behera",
   "license": "ISC",
